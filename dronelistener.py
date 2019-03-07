@@ -4,7 +4,7 @@ import sys
 #creates a varaible to store a socket on
 s = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 #Set the port to the one you want to work with for the drones
-port 6969
+port = 6969
 #Sets the s varible socket to allow traffic from assigned destination and port
 s.bind(('0.0.0.0', port))
 #Prints out a message deliveried over over the pocket on the socket
